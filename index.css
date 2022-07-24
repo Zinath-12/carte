@@ -9,19 +9,18 @@
     font-family: lato, sans-serif;
     
 }
-header{
+  header{
     background-color:rgb(12, 11, 11);
    
 }
-.container{
-    width: 35vw;
+  /* .container{
+    width: 60vw;
     margin: 0px auto;
-    
     
  
   
     
-}
+} */
 nav {
     display: flex;
     flex-direction: row;
@@ -92,14 +91,13 @@ background-image: url(./image/asset\ 1.jpeg);
 background-size: cover;
 background-repeat: no-repeat;
 }
-.herosection{
+  .herosection{
     height: 90vh;
 }
 .usp{
     color: white;
-   display: flex;
-   flex-direction: column;
-  padding: 70px 155px;
+
+  padding: 70px 180px;
   
 }
 h1{
@@ -154,10 +152,10 @@ h1{
     /* font-size: 2em; */
 }
  .flex{
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 40px;
     border-bottom: 0.1px solid  rgb(196, 192, 192);
     padding-bottom: 60px;
     background-color:rgb(12, 11, 11);
@@ -190,5 +188,10 @@ h1{
     background-image: url(./image/asset\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px 80px 0px;
     
  }
+.flex-avantage{
+    padding: 24px 190px;
+    width: 100vw;
+}
