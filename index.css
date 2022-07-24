@@ -195,3 +195,48 @@ line-height: 50px;
     width: 100vw;
     /* height: 300px; */
   }
+  
+  h4{
+    text-align: center;
+    font-size: 2em; 
+    padding: 24px 0px;
+  }
+  .chaise1{
+    border: 1px solid black;
+    width: 33vw;
+    height: 600px;
+  }
+  .image1{
+    width: 33vw;
+    height: 300px;
+    background-image: url(./image/asset\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .chaise2{
+    
+    width: 33vw;
+    height: 600px;
+  }
+  .image2{
+    width: 33vw;
+    height: 300px;
+    background-image: url(./image/asset\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  .chaise3{
+    
+    width: 33vw;
+    height: 600px;
+  }
+  .image3{
+    width: 33vw;
+    height: 300px;
+    background-image: url(./image/asset\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  .experience{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
