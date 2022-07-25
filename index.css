@@ -129,13 +129,13 @@ h1{
     gap: 24px;
 }
     .presentation{
-    background-color:rgb(12, 11, 11); 
+    background-color:black; 
     
     width: 100%;
     padding: 30px 0px;
 }
     .presentation-carte{
-    background-color:rgb(12, 11, 11); 
+    background-color:black; 
     /* background-color: aqua; */
     color: white;
     width: 100vw;
@@ -165,7 +165,7 @@ h1{
     gap: 80px;
     border-bottom: 0.1px solid  rgb(196, 192, 192);
     padding-bottom: 60px;
-    background-color:rgb(12, 11, 11);
+    background-color:black;
     /* background-color: aqua; */
     
     
@@ -200,11 +200,15 @@ line-height: 50px;
     text-align: center;
     font-size: 2em; 
     padding: 24px 0px;
+    background-color:black;
+    color: white;
+    
+    
   }
   .chaise1{
-    border: 1px solid black;
-    width: 33vw;
-    height: 600px;
+    /* width: 33vw; */
+    height: 400px;
+    border-right:  0.1px solid  rgb(196, 192, 192);
   }
   .image1{
     width: 33vw;
@@ -212,10 +216,27 @@ line-height: 50px;
     background-image: url(./image/asset\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
+  }
+  .image-usp{
+    background-color:black;
+    color: white;
+    height: 300px;
+    padding: 0px 24px;
+  }
+  h5{
+    /* text-align: center; */
+    font-size: 2em; 
+    padding: 24px 0px;
+  }
+  p{
+    line-height: 20px;
+    
   }
   .chaise2{
-    
-    width: 33vw;
+    border-right:  0.1px solid  rgb(196, 192, 192);
+    /* width: 33vw; */
     height: 600px;
   }
   .image2{
@@ -236,7 +257,12 @@ line-height: 50px;
     background-repeat: no-repeat;
     background-size: cover;}
   .experience{
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 40px; */
+    width: 90vw;
+    display: 32px 100px;
+    border-bottom:  0.1px solid  rgb(196, 192, 192);
+    
   }
+  
