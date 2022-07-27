@@ -273,8 +273,18 @@ line-height: 50px;
   .ensemble{
     width: 100vw;
     margin: 32px auto;
+    padding-left: 50px;
     
-    border-bottom:  0.1px solid  white;
+    /* border-bottom:  0.1px solid  white; */
+  }
+  .choix-carte{
+    width: 100vw;
+    margin: 32px auto;
+    padding-left: 130px;
+    
+  }
+  .choix-carte p{
+    padding: 64px 0px;
   }
   .image-one{
     width: 25vw;
