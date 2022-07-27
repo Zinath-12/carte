@@ -276,3 +276,24 @@ line-height: 50px;
     
     border-bottom:  0.1px solid  white;
   }
+  .image-one{
+    width: 25vw;
+    height: 200px;
+    background-image: url(./image/asset\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-two{
+    width: 25vw;
+    height: 200px;
+    background-image: url(./image/asset\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-three{
+    width: 25vw;
+    height: 200px;
+    background-image: url(./image/asset\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
