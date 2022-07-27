@@ -256,7 +256,8 @@ line-height: 50px;
     height: 300px;
     background-image: url(./image/asset\ 5.png);
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+  }
   .experience{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -283,6 +284,9 @@ line-height: 50px;
     padding-left: 130px;
     
   }
+  .titre{
+    padding-bottom: 54px;
+  }
   .choix-carte p{
     padding: 64px 0px;
   }
@@ -306,4 +310,7 @@ line-height: 50px;
     background-image: url(./image/asset\ 8.png);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .adresse{
+    color: white;
   }
