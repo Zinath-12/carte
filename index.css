@@ -1,7 +1,4 @@
-
-
-
- *{
+*{
     border: 0px;
     margin: 0px;
     padding: 0px;
@@ -37,7 +34,7 @@ nav {
         padding: 16px 12px;
     }
     .navitem{
-      /* padding-left: 16px; */
+      padding: 16px;
     }
     
     .part1{
@@ -211,7 +208,7 @@ line-height: 50px;
   }
   .chaise1{
     /* width: 33vw; */
-    height: 400px;
+    height: 600px;
     border-right:  0.1px solid  rgb(196, 192, 192);
   }
   .image1{
