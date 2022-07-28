@@ -7,7 +7,7 @@
     /* background-color: black; */
 }
   header{
-    background-color:rgb(12, 11, 11);
+    background-color:black;
    
 }
    .container{
@@ -34,7 +34,7 @@ nav {
         padding: 16px 12px;
     }
     .navitem{
-      padding: 16px;
+      padding: 16px ;
     }
     
     .part1{
@@ -93,7 +93,7 @@ background-repeat: no-repeat;
 }
   .herosection{
     height: 90vh;
-}
+  }
 .usp{
     color: white;
        width: 50vw;
@@ -135,11 +135,12 @@ h1{
     padding: 30px 0px;
 }
     .presentation-carte{
-    background-color:black; 
-    /* background-color: aqua; */
-    color: white;
-    width: 100vw;
-    padding: 30px 0px;
+      display: flex;
+      flex-direction: row;
+      /* border-bottom: 0.1px solid  rgb(196, 192, 192); */
+      padding-bottom: 60px;
+      background-color:black;
+        width: 90vw;
 }
 .nav{
     color: white;
@@ -159,14 +160,14 @@ h1{
     font-size: 2em; 
 }
  .flex{
-    width: 90vw;
+    /* width: 90vw; */
     display: flex;
     flex-direction: row;
     gap: 80px;
     border-bottom: 0.1px solid  rgb(196, 192, 192);
     padding-bottom: 60px;
     background-color:black;
-    /* background-color: aqua; */
+    
     
     
  } 
@@ -179,8 +180,8 @@ h1{
     width: 90vw; 
      display: flex; 
      flex-direction: row;
-    margin-left: 50px;
-    border-bottom: 0.1px solid  rgb(196, 192, 192);
+    /* margin-left: 50px; */
+    /* border-bottom: 0.1px solid  rgb(196, 192, 192); */
    }
   .avantage{
     color: white;
@@ -193,7 +194,7 @@ line-height: 50px;
     background-image: url(./image/asset\ 2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width:100vw;
     /* height: 300px; */
   }
   
@@ -261,8 +262,7 @@ line-height: 50px;
   .experience{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 40px; */
-    width: 90vw;
+    /* width: 90vw; */
     padding: 40px 0px ;
     border-bottom:  0.1px solid  white;
     
@@ -273,15 +273,15 @@ line-height: 50px;
   }
   .ensemble{
     width: 100vw;
-    margin: 32px auto;
-    padding-left: 50px;
+    /* margin: 32px auto; */
+    /* padding-left: 50px; */
     
     /* border-bottom:  0.1px solid  white; */
   }
   .choix-carte{
     width: 100vw;
-    margin: 32px auto;
-    padding-left: 130px;
+    /* margin: 32px auto; */
+    /* padding-left: 130px; */
     
   }
   .titre{
@@ -311,9 +311,7 @@ line-height: 50px;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .adresse{
-    color: white;
-  }
+
   table{
     color: white;
   }
