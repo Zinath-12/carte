@@ -315,3 +315,7 @@ line-height: 50px;
   table{
     color: white;
   }
+  td{
+    border: 1px solid white;
+  }
+  
